@@ -5,9 +5,12 @@ import './channel.css'
 function Channel(props) {
   const [mute, setMute] = useState(false)
 
+<<<<<<< HEAD
   //audio player instance 
   const [audioPlayer, setAudioPlayer] = useState(null);
 
+=======
+>>>>>>> 22c8df76dc02bb0c501929f0f2b5a7db4b595a9b
   const muteToggle = () => {
     setMute(!mute)
   }

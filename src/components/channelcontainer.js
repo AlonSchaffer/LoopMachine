@@ -15,14 +15,26 @@ function ChannelContainer() {
 
 
     const handleToggle = () => {
+<<<<<<< HEAD
         setPlayingState(!playingState);
     }
 
+=======
+        const prevValue = playingState
+        setPlayingState(!prevValue);
+   
+    }
+
+ 
+>>>>>>> 22c8df76dc02bb0c501929f0f2b5a7db4b595a9b
     const handleLoop = () => {
         setLoopState(!loopState)
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22c8df76dc02bb0c501929f0f2b5a7db4b595a9b
 
     return <RowContainer>
         <div className='controlPanel'>
@@ -37,6 +49,12 @@ function ChannelContainer() {
         <div className='channelsPanel'>
             <h2>Channel Clips:</h2>
             <h5>{(loopState) ? 'loop mode is active' : ''}</h5>
+<<<<<<< HEAD
+=======
+            <RowContainer>
+            step='0.1' value={currentTime} ref={progressBar} onChange={changeRange}/>
+            </RowContainer>
+>>>>>>> 22c8df76dc02bb0c501929f0f2b5a7db4b595a9b
             {UrlData.map((data, index) => {
                 return <Channel url={data.url} name={data.name} key={index} playingState={playingState} loopState={loopState} currentTimeState= {currentTime} />
 
