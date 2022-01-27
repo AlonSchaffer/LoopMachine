@@ -1,0 +1,68 @@
+.channelDrums {
+    background-color: #f94144;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+
+.channelVOC {
+    background-color: #f3722c;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+
+.channelTAMBOURINESHAKE {
+    background-color: #f8961e;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+.channelHEHEVOC {
+    background-color: #f9844a;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+.channelJIBBRISH {
+    background-color: #f9c74f;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+.channelHIGHVOC {
+    background-color: #90be6d;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+.channelLEAD1 {
+    background-color: #4d908e;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+
+.channelUUHOVOC {
+    background-color: #277da1;
+    display: flex;
+    text-align: left;
+    margin : 8px;
+    width: 100%;
+}
+
+.channel-button{
+    display: inline-block;
+    text-align: center;
+}
+.channel-name{
+    margin-left: 5px;
+    font-weight:bold
+}

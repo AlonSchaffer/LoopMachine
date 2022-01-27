@@ -1,0 +1,10 @@
+.controlPanel {
+    margin: auto;
+    border: 5px solid #780116;
+    padding: 10px;
+}
+
+.channelsPanel {
+    width: 50%;
+    height: 99vh;
+}
