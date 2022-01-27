@@ -5,15 +5,6 @@ import './channel.css'
 function Channel(props) {
   const [mute, setMute] = useState(false)
 
-  //audio player instance 
-  const [audioPlayer, setAudioPlayer] = useState(null);
-
-  useEffect(() => {
-    if (audioPlayer != null ) {
-      audioPlayer.seek(props.currentTimeState)
-    }
-  }, [props.currentTimeState])
-
   const muteToggle = () => {
     setMute(!mute)
   }
