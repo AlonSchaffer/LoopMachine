@@ -16,7 +16,7 @@ const UrlData = [{
 },
 {
     url: 'assets/Loopfiles/JIBRISH.mp3',
-    name: 'JIBBRISH'
+    name: 'JIBRISH'
 },
 {
     url: 'assets/Loopfiles/HIGH VOC.mp3',
